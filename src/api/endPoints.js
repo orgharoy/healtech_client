@@ -22,7 +22,7 @@ const apiRoutes = {
   fetchReportListForChecker : `${API_URL}/report/checker`,
   approveReport: `${API_URL}/report/checker/approve/`,
   rejectReport: `${API_URL}/report/checker/reject/`,
-  fetchActiveUsers: `${API_URL}/report`,
+  fetchActiveReports: `${API_URL}/report`,
   editActiveReport: `${API_URL}/report/active/edit/`,
 
   fetchActiveReportGroups: `${API_URL}/report-group`,

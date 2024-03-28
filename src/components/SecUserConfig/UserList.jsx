@@ -20,7 +20,8 @@ const UserList = () => {
             Authorization: `Bearer ${token}`
           }
         });
-    
+        
+        console.log(response.data)
         setDataSource(response.data.data);
 
       } catch (error) {
